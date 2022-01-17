@@ -42,6 +42,10 @@ git clone <link>
 git push origin master
 git pull origin master
 //push or pull commit from remote repo
+//could be main instead of master
+
+git branch 
+//list branch
 
 git branch <branch name>
 //create branch

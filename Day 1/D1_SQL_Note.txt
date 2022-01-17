@@ -1,0 +1,27 @@
+Entity - Strong, Weak
+Attribute - Simple, Complex, Multi Value
+Multi Value - an atrribute that contain multiple value and cannot be seperated
+
+Relation
+Caedinality
+Arity
+RelationType 1:1, 1:n, n:m
+Primary Key -Unique
+Composite Key -Combination of multiple column , partial dependancy key
+Foreign Key
+Unique
+Check Constraint
+
+DDL - data defination language
+DML - data manipulation language (query)
+i.e. CREATE/SELECT/INSERT/DELETE
+
+1st normal form
+- no multi value
+- have primary key(unique)
+
+2nd normal form
+- no Partial Dependency
+
+3rd normal form
+- no transitive dependency
