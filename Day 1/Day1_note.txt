@@ -1,0 +1,53 @@
+
+git --version
+//To get the git version that is installed in the system
+
+git init
+//to initialise local git repo
+
+git status
+//to check the status of the local repo
+
+git add <filename>
+//to add a file to the local repo for tracking
+
+git add -A
+//to add all the files in the current folder for tracking
+// A is for "All" files
+
+git commit -m "First Commit"
+//to commit the file to the local repo
+//m stands for message "the message"
+// --force
+
+git config --global user.email "abdhalimr019@gmail.com"
+//to set the identify for local repo
+
+*TAKE NOTE*
+track/stage(add) -> commit
+
+git log
+//display all commit
+
+git remote add origin <link>
+// link local repo with the remote repo
+// https://github.com/HalimR/Dotnet17Jan2022.git
+
+git remote --v
+//to check the remote repo connection
+
+git clone <link>
+//clone repo to folder
+
+git push origin master
+git pull origin master
+//push or pull commit from remote repo
+
+git branch <branch name>
+//create branch
+
+git checkout <branch name>
+//change working branch
+
+git branch -d -cc
+//delete branch "cc"
