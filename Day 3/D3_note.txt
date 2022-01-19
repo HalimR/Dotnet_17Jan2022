@@ -1,0 +1,45 @@
+Scope of Day 3
+1-Stored Procedures
+2-Triggers
+3-Cursors
+4-Functions
+5-Transactions
+
+sequence -> order in which instructions occur and proccessed
+
+selection -> determine which path to take (i.e. if,else) 
+
+iteration -> repeat execution of a section of a code (i.e. while)
+
+Stored Procedure ~ SQL Programmers
+-A stored procedure is a set of Structured Query Language (SQL) statements with an assigned name, 
+which are stored in a relational database management system (RDBMS) as a group, 
+so it can be reused and shared by multiple programs.
+
+SP Advantages
+1- one time execution, much smoother
+2- dont have to do sql injection, much safer, send as param -> object
+3- encapsulation -> dont need to know the database/table
+4- simplicity, queries might be too long
+
+Transaction -> ACID properties
+Tran -> Rollback/Commit
+very safe, avoid mistakes, once commited there is no turning back
+
+Atomicity - All done or not at all
+Cosistency - Consistent before and after transaction
+Isolation - Multiple transaction occure independatently without interference
+Durability - changes of a successful transaction occur even if system failure occur
+
+Scalar function - return 1 value
+Tabular function - return a table, cannot do DML queries for this, only return purposes(own table)
+
+Cursors
+1-Declare
+2-Open
+3-Fetch
+4-While -> Fetch
+5-Close
+6-Deallocate
+
+*most of these can be placed in stored procedure
