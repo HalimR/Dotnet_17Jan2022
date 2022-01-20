@@ -1,0 +1,144 @@
+CRUD operation
+-> Create, Read, Update, Delete
+
+-.NET -> technology/framework
+-made on 1999
+-released on 2000
+-not popular on released, not many features, similar to java
+-C# -> programming language
+-Visual Studio -> IDE (Integrated Development Environment)
+-.NET Core -> Platform Independent
+-Visual Studio Code -> very light & can add as many plugin
+
+----------------------
+Application -> Console | Windows | Web App | API | Mobile
+----------------------
+Basic Class Lib
+----------------------
+.NET Framework CLR
+----------------------
+Operation System
+----------------------
+
+
+----------------------
+Source Code -> 
+.java, 
+.cs, 
+.c
+----------------------
+Compiler -> 
+javac, 
+csc, 
+GCC
+----------------------
+Intermediate -> 
+byte code, 
+CIL (Common Intermediate Language), 
+object code
+----------------------
+JRE(Jave Runtime Environment, 
+CLR(Common Language Runtime), 
+Assembler
+----------------------
+Machine code -> exe/dll
+----------------------
+
+.NET Framework -CLR features
+-CTS (Common type system)
+-CLS (Common Language Specification)
+-Type Safety
+-Versioning
+-Interoperability - Inter Operational Ability
+-Profiling Exception Handling
+
+Assembly -> Single Deployable Unit
+-Code in CIL
+-Menefest -> version no., author
+-References
+-Metada
+-Other files -> text, video, audio, pics/images
+
+Documentation link: https://docs.microsoft.com/en-us/dotnet/fundamentals/
+
+*need to fully understand the fundamentals to explain to others
+
+C# - Object Oriented Programming (Structure)
+Language
+-Keywords -> Words
+-Syntax -> Grammar
+
+Statement
+-Sequence -> flow/one after another
+-Selection -> choices of statement
+-Iteration -> Repeat execution
+
+OOPS ->
+->Class
+-collection of ob
+-define a data
+->Object 
+-any real world entity
+-collection of property
+-instance of a class
+Class C1
+
+-Inheritance
+-Polymorphism
+- 
+
+Namespace -> Class
+
+Methos in class
+-Executable
+-
+
+Class Name -> CapitalFirstLetter -> Nouns/Object
+Methods -> CapitalFirstLetter -> Verbs/Action
+Interface -> IThenFirstLetterCapital 
+Variables
+-private -> camelCae
+-ReadOnly -> _camelCase
+-Constants -> PASCAL
+-Public -> CapitalFirstLetter
+
+Allocate memory -> Identifier -> Everything
+Main -> Entry point ->Reserve identifier
+
+i.e. //Console class name, write line is method
+Executable piece of code
+Console.WriteLine("Hello World")
+
+static -> need to call object before calling the method
+
+instance -> dont need to call object, can call the method
+
+8	Abdul Halim bin Abdul Rahman	 The C# type system	https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/
+
+Tutorial
+-task: order Pizza
+-list pizza
+-select order
+-add topping
+
+Individual Project 
+-Console Application
+-invloves CRUD
+
+Clinic Management System
+-doctor login
+-appointment that have book for him
+-view all appointment
+-close an appointment -> charges/payment request to patient
+-open pointment -> see details, illness and prescribe
+-patient login
+-see charges/payment (complete or not)
+-past appointment
+-doctor listing
+-book appointment
+-payment for appointment -> to be pay -> payed (dummy)
+-will be presented solo for the clinic management system
+-create table
+-last 15min can ask for the requirement for the solo project
+-finalize requirement
+

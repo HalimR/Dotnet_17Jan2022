@@ -1,0 +1,6 @@
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 4\repos\FirstSolution\FirstApplication\obj\Debug\FirstApplication.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 4\repos\FirstSolution\FirstApplication\bin\Debug\FirstApplication.exe.config
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 4\repos\FirstSolution\FirstApplication\bin\Debug\FirstApplication.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 4\repos\FirstSolution\FirstApplication\bin\Debug\FirstApplication.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 4\repos\FirstSolution\FirstApplication\obj\Debug\FirstApplication.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 4\repos\FirstSolution\FirstApplication\obj\Debug\FirstApplication.pdb
