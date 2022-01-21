@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaFEConsoleApp", "PizzaFEConsoleApp\PizzaFEConsoleApp.csproj", "{66DF5880-F9CA-45B3-AE15-F6DF8AB55724}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaModelsLibrary", "PizzaModelsLibrary\PizzaModelsLibrary.csproj", "{737052D5-B9C5-4874-9254-EA89C216E0C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66DF5880-F9CA-45B3-AE15-F6DF8AB55724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66DF5880-F9CA-45B3-AE15-F6DF8AB55724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66DF5880-F9CA-45B3-AE15-F6DF8AB55724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66DF5880-F9CA-45B3-AE15-F6DF8AB55724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{737052D5-B9C5-4874-9254-EA89C216E0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{737052D5-B9C5-4874-9254-EA89C216E0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{737052D5-B9C5-4874-9254-EA89C216E0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{737052D5-B9C5-4874-9254-EA89C216E0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7DB3BD4-E858-4421-9F2F-1EC9366DEE29}
+	EndGlobalSection
+EndGlobal

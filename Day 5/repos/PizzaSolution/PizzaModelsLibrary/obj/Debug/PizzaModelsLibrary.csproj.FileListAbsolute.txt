@@ -1,0 +1,6 @@
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\PizzaSolution\PizzaModelsLibrary\bin\Debug\PizzaModelsLibrary.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\PizzaSolution\PizzaModelsLibrary\bin\Debug\PizzaModelsLibrary.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\PizzaSolution\PizzaModelsLibrary\obj\Debug\PizzaModelsLibrary.csproj.AssemblyReference.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\PizzaSolution\PizzaModelsLibrary\obj\Debug\PizzaModelsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\PizzaSolution\PizzaModelsLibrary\obj\Debug\PizzaModelsLibrary.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\PizzaSolution\PizzaModelsLibrary\obj\Debug\PizzaModelsLibrary.pdb

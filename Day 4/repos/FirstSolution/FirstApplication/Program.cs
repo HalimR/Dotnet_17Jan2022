@@ -43,7 +43,7 @@ namespace FirstApplication
             //s.IterationWithWhile();
             //s.IterationWithDoWhile();
 
-            Solution solution = new Solution();
+            //Solution solution = new Solution();
             //solution.PrintOrderNumber();
             //solution.OddOrEven();
             //solution.GreaterNumberForTwo();
@@ -53,7 +53,15 @@ namespace FirstApplication
             //solution.PrintInBetweenPrimeNumbers();
             //solution.PrintNumbersDivisibleBySeven();
             //solution.SumOfAllDigits();
-            solution.IsPalindrome();
+            //solution.IsPalindrome();
+
+            string s = "The answer is " + 5.ToString();
+            // Outputs: "The answer is 5"
+            Console.WriteLine(s);
+
+            Type type = 12345.GetType();
+            // Outputs: "System.Int32"
+            Console.WriteLine(type);
 
             Console.ReadKey();
         }

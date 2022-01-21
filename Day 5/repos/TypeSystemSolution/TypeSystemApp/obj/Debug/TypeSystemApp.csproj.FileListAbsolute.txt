@@ -1,0 +1,7 @@
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\TypeSystemSolution\TypeSystemApp\bin\Debug\TypeSystemApp.exe.config
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\TypeSystemSolution\TypeSystemApp\bin\Debug\TypeSystemApp.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\TypeSystemSolution\TypeSystemApp\bin\Debug\TypeSystemApp.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\TypeSystemSolution\TypeSystemApp\obj\Debug\TypeSystemApp.csproj.AssemblyReference.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\TypeSystemSolution\TypeSystemApp\obj\Debug\TypeSystemApp.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\TypeSystemSolution\TypeSystemApp\obj\Debug\TypeSystemApp.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\TypeSystemSolution\TypeSystemApp\obj\Debug\TypeSystemApp.pdb

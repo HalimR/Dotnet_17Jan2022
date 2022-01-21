@@ -1,0 +1,34 @@
+Understanding Object Oriented Programming Structure
+
+Memory:
+Heap
+-Classes(Object)
+
+Stack
+-Reference
+
+Static Memory Area
+-hold all the "Common" for all the object
+
+Access check -> excel file
+By Default
+-class -> internal
+-var -> private
+
+Inheritance
+It is the mechanism in C# by which one class is 
+allowed to inherit the features(fields and methods) of another class.
+
+Single inheritance
+A <-> B
+
+Multilevel inheritance
+A <-> B <-> C
+
+Hierarchical inheritance
+A <-> B
+A <-> C
+
+Polymorphism
+Polymorphism provides the ability to a class to have multiple implementations with the same name.
+-Dynamic - virtual/overrid -> can only occur when use inheritance

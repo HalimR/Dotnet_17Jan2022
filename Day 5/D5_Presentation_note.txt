@@ -1,0 +1,143 @@
+The C# type system
+
+constraints:
+-The storage space that a variable of the type requires.
+-The maximum and minimum values that it can represent.
+-The members (methods, fields, events, and so on) that it contains.
+-The base type it inherits from.
+-The interface(s) it implements.
+-The kinds of operations that are permitted.
+
+int a = 5;
+int b = a + 2; //OK
+
+bool test = true;
+
+// Error. Operator '+' cannot be applied to operands of type 'int' and 'bool'.
+int c = a + test;
+
+// Declaration only:
+float temperature;
+string name;
+MyClass myClass;
+
+// Declaration with initializers (four examples):
+char firstLetter = 'C';
+var limit = 3;
+int[] source = { 0, 1, 2, 3, 4, 5 };
+var query = from item in source
+            where item <= limit
+            select item;
+
+public string GetName(int ID)
+{
+    if (ID < names.Length)
+        return names[ID];
+    else
+        return String.Empty;
+}
+private string[] names = { "Spencer", "Sally", "Doug" };
+
+-Structs typically store data that isn't intended to be modified after the struct is created. 
+-Record types are data structures with additional compiler synthesized members. 
+-Records typically store data that isn't intended to be modified after the object is created.
+
+-Struct
+public struct Coords
+{
+    public int x, y;
+
+    public Coords(int p1, int p2)
+    {
+        x = p1;
+        y = p2;
+    }
+}
+
+-enum
+public enum FileMode
+{
+    CreateNew = 1,
+    Create = 2,
+    Open = 3,
+    OpenOrCreate = 4,
+    Truncate = 5,
+    Append = 6,
+}
+
+-Class
+MyClass myClass = new MyClass();
+MyClass myClass2 = myClass;
+
+MyClass myClass = new MyClass();
+
+-Interface
+// Declare and assign using an existing value.
+IMyInterface myInterface = myClass;
+
+// Or create and assign a value in a single statement.
+IMyInterface myInterface2 = new MyClass();
+
+-Array
+// Declare and initialize an array of integers.
+int[] nums = { 1, 2, 3, 4, 5 };
+
+// Access an instance property of System.Array.
+int len = nums.Length;
+
+-Literal Value
+string s = "The answer is " + 5.ToString();
+// Outputs: "The answer is 5"
+Console.WriteLine(s);
+
+Type type = 12345.GetType();
+// Outputs: "System.Int32"
+Console.WriteLine(type);
+
+-Generic Types
+List<int> stringList = new List<int>();
+stringList.Add("String example");
+// compile time error adding a type other than a string:
+stringList.Add(4);
+
+-Implicit Value Type
+// i is compiled as an int
+var i = 5;
+
+// s is compiled as a string
+var s = "Hello";
+
+// a is compiled as int[]
+var a = new[] { 0, 1, 2 };
+
+// expr is compiled as IEnumerable<Customer>
+// or perhaps IQueryable<Customer>
+var expr =
+    from c in customers
+    where c.City == "London"
+    select c;
+
+// anon is compiled as an anonymous type
+var anon = new { Name = "Terry", Age = 34 };
+
+// list is compiled as List<int>
+var list = new List<int>();
+
+-Nullable Value Types
+double? pi = 3.14;
+char? letter = 'a';
+
+int m2 = 10;
+int? m = m2;
+
+bool? flag = null;
+
+// An array of a nullable value type:
+int?[] arr = new int?[10];
+
+-Anonymous Type
+var v = new { Amount = 108, Message = "Hello" };
+
+// Rest the mouse pointer over v.Amount and v.Message in the following
+// statement to verify that their inferred types are int and string.
+Console.WriteLine(v.Amount + v.Message);

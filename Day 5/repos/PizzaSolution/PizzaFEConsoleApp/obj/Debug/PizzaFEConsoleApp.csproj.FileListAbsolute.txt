@@ -1,0 +1,10 @@
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\PizzaSolution\PizzaFEConsoleApp\bin\Debug\PizzaFEConsoleApp.exe.config
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\PizzaSolution\PizzaFEConsoleApp\bin\Debug\PizzaFEConsoleApp.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\PizzaSolution\PizzaFEConsoleApp\bin\Debug\PizzaFEConsoleApp.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\PizzaSolution\PizzaFEConsoleApp\obj\Debug\PizzaFEConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\PizzaSolution\PizzaFEConsoleApp\obj\Debug\PizzaFEConsoleApp.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\PizzaSolution\PizzaFEConsoleApp\obj\Debug\PizzaFEConsoleApp.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\PizzaSolution\PizzaFEConsoleApp\obj\Debug\PizzaFEConsoleApp.csproj.AssemblyReference.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\PizzaSolution\PizzaFEConsoleApp\bin\Debug\PizzaModelsLibrary.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\PizzaSolution\PizzaFEConsoleApp\bin\Debug\PizzaModelsLibrary.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 5\repos\PizzaSolution\PizzaFEConsoleApp\obj\Debug\PizzaFEConsoleApp.csproj.CopyComplete
