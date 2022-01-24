@@ -1,0 +1,7 @@
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 6\repos\CodilitySolution\CodilityApp\bin\Debug\CodilityApp.exe.config
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 6\repos\CodilitySolution\CodilityApp\bin\Debug\CodilityApp.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 6\repos\CodilitySolution\CodilityApp\bin\Debug\CodilityApp.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 6\repos\CodilitySolution\CodilityApp\obj\Debug\CodilityApp.csproj.AssemblyReference.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 6\repos\CodilitySolution\CodilityApp\obj\Debug\CodilityApp.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 6\repos\CodilitySolution\CodilityApp\obj\Debug\CodilityApp.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 6\repos\CodilitySolution\CodilityApp\obj\Debug\CodilityApp.pdb

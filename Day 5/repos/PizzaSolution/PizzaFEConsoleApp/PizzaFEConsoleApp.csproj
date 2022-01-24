@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{66DF5880-F9CA-45B3-AE15-F6DF8AB55724}</ProjectGuid>
+    <ProjectGuid>{3F3D2601-D60C-4EDD-A774-A9013CC9F9F2}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>PizzaFEConsoleApp</RootNamespace>
     <AssemblyName>PizzaFEConsoleApp</AssemblyName>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ManageMenu.cs" />
     <Compile Include="ManageCustomer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -52,7 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PizzaModelsLibrary\PizzaModelsLibrary.csproj">
-      <Project>{737052d5-b9c5-4874-9254-ea89c216e0c9}</Project>
+      <Project>{535e37d0-1612-4a70-b974-29df7a7ceeb9}</Project>
       <Name>PizzaModelsLibrary</Name>
     </ProjectReference>
   </ItemGroup>

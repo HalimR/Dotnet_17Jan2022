@@ -1,0 +1,27 @@
+Inheritance that is not C#
+-Multiple Inheritance - due to Ambiguity
+ie. A -> C, B -> C,
+-Hybird/Diamond Inheritance - same reason, invloves multiple inheritance
+
+by default, all inherit from the object class
+
+Interface
+- a way to abstact an object -> showing watever neccesary is abstarct
+- naming convention -> Capital I follow by another capital -> ie. ILiving
+- declation only, no methods
+
+CRUD
+
+Overloading
+-Same method with change in parameter
+-static polymorphism
+-binding on compilation
+-implemented by overloading - chain of parameter
+-inheritance not mandatory
+-constructor is also be able to overload
+-to initialise the value /constructor is the first method
+
+overriding 
+- dynamic polymorphism
+
+Access

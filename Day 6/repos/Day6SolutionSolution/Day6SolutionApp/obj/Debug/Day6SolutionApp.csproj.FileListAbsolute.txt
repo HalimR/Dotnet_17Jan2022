@@ -1,0 +1,7 @@
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 6\repos\Day6SolutionSolution\Day6SolutionApp\bin\Debug\Day6SolutionApp.exe.config
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 6\repos\Day6SolutionSolution\Day6SolutionApp\bin\Debug\Day6SolutionApp.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 6\repos\Day6SolutionSolution\Day6SolutionApp\bin\Debug\Day6SolutionApp.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 6\repos\Day6SolutionSolution\Day6SolutionApp\obj\Debug\Day6SolutionApp.csproj.AssemblyReference.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 6\repos\Day6SolutionSolution\Day6SolutionApp\obj\Debug\Day6SolutionApp.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 6\repos\Day6SolutionSolution\Day6SolutionApp\obj\Debug\Day6SolutionApp.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 6\repos\Day6SolutionSolution\Day6SolutionApp\obj\Debug\Day6SolutionApp.pdb

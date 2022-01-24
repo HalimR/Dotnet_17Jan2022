@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{737052D5-B9C5-4874-9254-EA89C216E0C9}</ProjectGuid>
+    <ProjectGuid>{535E37D0-1612-4A70-B974-29DF7A7CEEB9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PizzaModelsLibrary</RootNamespace>
@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Customer.cs" />
     <Compile Include="GoldCustomer.cs" />
+    <Compile Include="Pizza.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
