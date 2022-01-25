@@ -19,4 +19,4 @@ example
 Sort and print all the values
 Find the median and mode(If no repeation then no mode)
 
-4) Update your project to add, edit, print appointments
+*) Update your project to add, edit, print appointments

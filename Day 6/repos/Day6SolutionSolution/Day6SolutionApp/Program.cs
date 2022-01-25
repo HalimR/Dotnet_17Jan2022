@@ -11,8 +11,9 @@ namespace Day6SolutionApp
         static void Main(string[] args)
         {
             Solution solution = new Solution();
-            solution.IsCreditNumber();
+            //solution.IsCreditNumber();
             //solution.NonRepeatingNumber();
+            solution.PrintNumberDetails();
             Console.ReadKey();
         }
     }

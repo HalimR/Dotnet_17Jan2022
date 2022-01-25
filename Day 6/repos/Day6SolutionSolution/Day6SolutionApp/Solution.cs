@@ -74,5 +74,60 @@ namespace Day6SolutionApp
                     Console.WriteLine(numbers[i]);
             }
         }
+
+        public void PrintNumberDetails()
+        {
+            int[] numbers = new int[15];
+            int i = 0;
+            int input = 0;
+            int median;
+            int count = 1;
+
+            Console.WriteLine("Please enter upto 15 numbers (stop when negative value is inserted)");
+
+            while(i < numbers.Length)
+            {
+                Console.WriteLine("Please enter the {0} number", i+1);
+                input = Convert.ToInt32(Console.ReadLine());
+                if (input < 0)
+                    break;
+                else
+                {
+                    numbers[i] = input;
+                    i++;
+                    count++;
+                }
+            }
+
+            // Calculate Median
+            if (count % 2 == 0)
+                median = (numbers[(count / 2) - 1] + numbers[(count / 2)]) / 2;
+            else
+                median = numbers[(count / 2)];
+
+            // Calculate Mode...
+            int[] containers = new int[count+1];
+            for (int k = 0; k < containers.Length; k++)
+                containers[k] =numbers[k];
+
+            int mode = containers.GroupBy(v => v)
+                        .OrderByDescending(g => g.Count())
+                        .First()
+                        .Key;
+
+            Console.WriteLine("------------------------");
+            Console.WriteLine("The numbers entered are:");
+            Array.Sort(numbers);
+            for (int j = 0; j < numbers.Length; j++)
+            {
+                if (numbers[j] > 0)
+                    Console.WriteLine(numbers[j]);
+            }
+            Console.WriteLine("------------------------");
+            Console.WriteLine("Median: {0}", median);
+            Console.WriteLine("Mode: {0}", mode);
+            Console.WriteLine("------------------------");
+
+        }
     }
 }

@@ -1,0 +1,11 @@
+DAY 7
+
+Collection?
+List
+Stack - Last In -> First Out
+Queue
+Dictionary
+-act the same as primary key
+-no duplicate, no null
+Sets -> HashSet / SortedSet
+-ignore duplicate -> wont produce error

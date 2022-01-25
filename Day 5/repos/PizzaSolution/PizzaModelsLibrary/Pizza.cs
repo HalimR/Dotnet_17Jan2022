@@ -8,8 +8,6 @@ namespace PizzaModelsLibrary
 {
     public class Pizza  :IComparable
     {
-        
-
         public int Id { get; set; }
         public string Name { get; set; }
         public bool IsVeg { get; set; }

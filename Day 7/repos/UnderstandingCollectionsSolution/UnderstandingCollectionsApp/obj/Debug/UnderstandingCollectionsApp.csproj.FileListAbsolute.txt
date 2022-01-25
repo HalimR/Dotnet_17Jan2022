@@ -1,0 +1,7 @@
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 7\repos\UnderstandingCollectionsSolution\UnderstandingCollectionsApp\bin\Debug\UnderstandingCollectionsApp.exe.config
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 7\repos\UnderstandingCollectionsSolution\UnderstandingCollectionsApp\bin\Debug\UnderstandingCollectionsApp.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 7\repos\UnderstandingCollectionsSolution\UnderstandingCollectionsApp\bin\Debug\UnderstandingCollectionsApp.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 7\repos\UnderstandingCollectionsSolution\UnderstandingCollectionsApp\obj\Debug\UnderstandingCollectionsApp.csproj.AssemblyReference.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 7\repos\UnderstandingCollectionsSolution\UnderstandingCollectionsApp\obj\Debug\UnderstandingCollectionsApp.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 7\repos\UnderstandingCollectionsSolution\UnderstandingCollectionsApp\obj\Debug\UnderstandingCollectionsApp.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 7\repos\UnderstandingCollectionsSolution\UnderstandingCollectionsApp\obj\Debug\UnderstandingCollectionsApp.pdb
