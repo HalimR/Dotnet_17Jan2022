@@ -6,20 +6,22 @@ using System.Threading.Tasks;
 
 namespace PizzaModelsLibrary
 {
-    public class Pizza  :IComparable
+    public class Pizza // :IComparable
     {
+        
+
         public int Id { get; set; }
         public string Name { get; set; }
         public bool IsVeg { get; set; }
         public double Price { get; set; }
 
-        public int CompareTo(object obj)
-        {
-            Pizza p1, p2;
-            p1 = this;
-            p2 = (Pizza)obj;
-            return p1.Price.CompareTo(p2.Price);
-        }
+        //public int CompareTo(object obj)
+        //{
+        //    Pizza p1, p2;
+        //    p1 = this;
+        //    p2 = (Pizza)obj;
+        //    return p1.Price.CompareTo(p2.Price);
+        //}
         public void GetPizzaDetails()
         {
             Console.WriteLine("Please enter the pizza name");

@@ -34,9 +34,6 @@ namespace CMSFEConsoleApp
                     case 2:
                         menu.EditAppointmentPrice();
                         break;
-                    //case 3:
-                    //    menu.RemovePizza();
-                    //    break;
                     case 4:
                         menu.PrintSingleAppointmentByID();
                         break;

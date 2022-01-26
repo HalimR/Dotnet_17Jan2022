@@ -1,0 +1,7 @@
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 8\repos\UnderstandingExceptionsSolution\UnderstandingExceptionsApp\bin\Debug\UnderstandingExceptionsApp.exe.config
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 8\repos\UnderstandingExceptionsSolution\UnderstandingExceptionsApp\bin\Debug\UnderstandingExceptionsApp.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 8\repos\UnderstandingExceptionsSolution\UnderstandingExceptionsApp\bin\Debug\UnderstandingExceptionsApp.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 8\repos\UnderstandingExceptionsSolution\UnderstandingExceptionsApp\obj\Debug\UnderstandingExceptionsApp.csproj.AssemblyReference.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 8\repos\UnderstandingExceptionsSolution\UnderstandingExceptionsApp\obj\Debug\UnderstandingExceptionsApp.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 8\repos\UnderstandingExceptionsSolution\UnderstandingExceptionsApp\obj\Debug\UnderstandingExceptionsApp.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 8\repos\UnderstandingExceptionsSolution\UnderstandingExceptionsApp\obj\Debug\UnderstandingExceptionsApp.pdb

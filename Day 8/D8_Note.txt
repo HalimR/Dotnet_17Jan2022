@@ -1,0 +1,28 @@
+Argument Exception
+-occurs at Dictionary
+-when null value is entered
+-null point exception
+
+Exception - something unexpected happened
+-try -> catch -> finally
+-can have multiple catch
+-called block
+-Finally block always executed even without any exception found
+-to call all exception for the user to know the error/exception
+-good to call the general exception to catch uncalled exception
+
+Exception handling 
+-runtime 
+-no hold by programmer
+-use quite a lot of resource (depends)
+
+Error handling 
+- programmer can manipulate/manage/control
+- take priortiy, exception as a safety net
+
+LINQ - Language Interger Query
+engine
+lamda - expression
+
+
+
