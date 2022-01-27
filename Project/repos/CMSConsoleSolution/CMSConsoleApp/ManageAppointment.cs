@@ -9,18 +9,18 @@ namespace CMSConsoleApp
 {
     public class ManageAppointment
     {
-        List<Appointment> apps;
+        List<Appointment> apps = new List<Appointment>();
+        ManageUser manageUser = new ManageUser();
 
         public ManageAppointment()
         {
-            apps = new List<Appointment>();
             apps.Add(new Appointment
             {
                 App_Id = 001,
                 Pat_Id = 101,
                 Doc_Id = 102,
-                App_Date = "5/1/2022",
-                App_Outstanding = 10.01,
+                App_Date = new DateTime(2022, 01, 25, 10, 00, 00),
+                App_Outstanding = 0,
                 App_PayStatus = 1
             });
 
@@ -29,12 +29,33 @@ namespace CMSConsoleApp
                 App_Id = 002,
                 Pat_Id = 101,
                 Doc_Id = 102,
-                App_Date = "10/1/2022",
+                App_Date = new DateTime(2022, 01, 26, 10, 00, 00),
                 App_Outstanding = 124.61,
                 App_PayStatus = 2
             });
+
+            apps.Add(new Appointment
+            {
+                App_Id = 003,
+                Pat_Id = 103,
+                Doc_Id = 104,
+                App_Date = new DateTime(2022, 01, 28, 14, 00, 00),
+                App_Outstanding = 21.21,
+                App_PayStatus = 2
+            });
+
+            apps.Add(new Appointment
+            {
+                App_Id = 004,
+                Pat_Id = 103,
+                Doc_Id = 104,
+                App_Date = new DateTime(2022, 01, 25, 14, 00, 00),
+                App_Outstanding = 0,
+                App_PayStatus = 3
+            });
         }
 
+        #region Appointment
         public Appointment GetAppByAppId(int id)
         {
             Appointment app = apps.Find(p => p.App_Id == id);
@@ -62,10 +83,47 @@ namespace CMSConsoleApp
             {
                 Appointment app = apps.Find(p => p.App_Id == appId && p.Doc_Id == user.User_Id);
                 return app;
-            } 
+            }
         }
 
+        public void PrintAppDetail(Appointment item)
+        {
+            Console.WriteLine("-------------------------");
+            Console.WriteLine(item);
+        }
+
+        public void PrintPatAppDetail(Appointment item)
+        {
+            Console.WriteLine("-------------------------");
+            Console.WriteLine("Appointment ID : " + item.App_Id);
+            Console.WriteLine("Doctor ID : " + item.Doc_Id);
+            Console.WriteLine("Patient Remarks : " + item.App_PatRemarks);
+            Console.WriteLine("Doctor Remarks : " + item.App_DocRemarks);
+            Console.WriteLine("Appointment Date : " + item.App_Date);
+            Console.WriteLine("Outstanding Payment : " + item.App_Outstanding);
+            Console.WriteLine("Pay Status : " + (item.App_PayStatus == 1 ? "Not Raised" : (item.App_PayStatus == 2 ? "Payment Raised" : "Payment Settled")));
+        }
+
+        public void PrintDocAppDetail(Appointment item)
+        {
+            Console.WriteLine("-------------------------");
+            Console.WriteLine("Appointment ID : " + item.App_Id);
+            Console.WriteLine("Patient ID : " + item.Pat_Id);
+            Console.WriteLine("Patient Remarks : " + item.App_PatRemarks);
+            Console.WriteLine("Doctor Remarks : " + item.App_DocRemarks);
+            Console.WriteLine("Appointment Date : " + item.App_Date);
+            Console.WriteLine("Pay Status : " + (item.App_PayStatus == 1 ? "Not Raised" : (item.App_PayStatus == 2 ? "Payment Raised" : "Payment Settled")));
+        }
+        #endregion
+
         #region Patient Appointment
+        private int GenerateAppId()
+        {
+            if (apps.Count == 0)
+                return 001;
+            else
+                return (apps.Count + 1);
+        }
         public Appointment GetAppByPatId(int patId)
         {
             Appointment app = apps.Find(p => p.Pat_Id == patId);
@@ -77,33 +135,103 @@ namespace CMSConsoleApp
                 .Where(e => e.Pat_Id == patId);
             foreach (var item in PatAppointments)
             {
-                Console.WriteLine("-------------------------");
-                Console.WriteLine("Appointment ID : " + item.App_Id);
-                Console.WriteLine("Patient ID : " + item.Doc_Id);
-                Console.WriteLine("Appointment Date : " + item.App_Date);
-                Console.WriteLine("Outstanding Payment : " + item.App_Outstanding);
-                Console.WriteLine("Pay Status : " + (item.App_PayStatus == 1 ? "Not Raised" : (item.App_PayStatus == 2 ? "Payment Raised" : "Payment Settled")));
-                Console.WriteLine("-------------------------");
+                PrintPatAppDetail(item);
             }
         }
 
-        private int GenerateAppId()
+        public void PrintUpcomingAppDetailsByPatId(int patId)
         {
-            if (apps.Count == 0)
-                return 001;
+            DateTime today = DateTime.Today;
+
+            var PatAppointments = apps
+                .Where(e => e.Pat_Id == patId && e.App_Date.Date >= today);
+            if (PatAppointments.Count() > 0)
+            {
+                foreach (var item in PatAppointments)
+                {
+                    PrintPatAppDetail(item);
+                }
+            }
             else
-                return (apps.Count+1);
+                Console.WriteLine("No Upcoming Appointments");
+
+        }
+
+        public void PrintPastAppDetailsByPatId(int patId)
+        {
+            DateTime today = DateTime.Today;
+
+            var PatAppointments = apps
+                .Where(e => e.Pat_Id == patId && e.App_Date.Date < today);
+            if (PatAppointments.Count() > 0)
+            {
+                foreach (var item in PatAppointments)
+                {
+                    PrintPatAppDetail(item);
+                }
+            }
+            else
+                Console.WriteLine("No Previous Appointments/Records");
         }
 
         public void BookAppointmentByPatId(User user)
         {
             Appointment app = new Appointment();
-            app.GetAppointmentDetails();
-            app.App_Id = GenerateAppId();
-            app.Pat_Id = user.User_Id;
-            app.App_Outstanding = 0;
-            app.App_PayStatus = 1;
-            apps.Add(app);
+
+            //Get Doctor
+            int docId;
+            User doctorUser;
+            manageUser.PrintDoctorList();
+            Console.WriteLine("Enter Doctor ID");
+            while (!int.TryParse(Console.ReadLine(), out docId))
+            {
+                Console.WriteLine("Invalid entry for Doctor ID. Please try again...");
+            }
+            doctorUser = manageUser.GetDoctorById(docId);
+            if (doctorUser == null)
+            {
+                Console.WriteLine("Doctor ID does not exist..");
+                Console.WriteLine("Booking cancelled");
+                return;
+            }
+
+            //Get Date
+            DateTime choiceDate = app.GetAppointmentDate();
+
+            //Check User duplicate Timeslot
+            var UserAppointments = apps
+            .Where(e => e.Pat_Id == user.User_Id && e.App_Date == choiceDate);
+            if (UserAppointments.Count() > 0)
+            {
+                Console.WriteLine("Already book the same time slot");
+                Console.WriteLine("Booking cancelled");
+                return;
+            }
+
+            //Check Doctor Availibility
+            var OpenAppointments = apps
+            .Where(e => e.Doc_Id == docId && e.App_Date == choiceDate);
+            if (OpenAppointments.Count() > 0)
+            {
+                Console.WriteLine("The Doctor is not available on the select date and time slot");
+                Console.WriteLine("Booking cancelled");
+                return;
+            }
+            else
+            {
+                Console.WriteLine("Please enter remarks");
+                string remarks = Console.ReadLine();
+                app.App_Date = choiceDate;
+                app.Doc_Id = docId;
+                app.App_Id = GenerateAppId();
+                app.Pat_Id = user.User_Id;
+                app.App_Outstanding = 0;
+                app.App_PayStatus = 1;
+                app.App_PatRemarks = remarks;
+                apps.Add(app);
+                Console.WriteLine("Booking Appointment Success! Please check upcoming appointment to review");
+                return;
+            }
         }
 
         public void MakePayment(User user)
@@ -115,11 +243,19 @@ namespace CMSConsoleApp
                 Console.WriteLine("Invalid Id. Cannot edit");
                 return;
             }
-            Console.WriteLine("The selected Appointment to raise payment request: ");
+            if (app.App_PayStatus != 2)
+            {
+                if (app.App_PayStatus == 1)
+                    Console.WriteLine("Unable to make payment. The doctor have yet to raise payment charge");
+                else
+                    Console.WriteLine("Unable to make payment. The payment already settled");
+                return;
+            }
             PrintAppDetail(app);
+            Console.WriteLine("Appointment above have been selected to make payment ");
             double payment;
-            Console.WriteLine("Please enter amount for the patient to pay");
-            while (!double.TryParse(Console.ReadLine(), out payment))
+            Console.WriteLine("Please enter the amount to make payment");
+            while (!double.TryParse(Console.ReadLine(), out payment) || payment > app.App_Outstanding || payment < 0)
             {
                 Console.WriteLine("Invalid entry for amount. Please try again...");
             }
@@ -127,8 +263,8 @@ namespace CMSConsoleApp
             if (app.App_Outstanding == 0)
                 app.App_PayStatus = 3;
 
-            Console.WriteLine("Updated. New Details");
             PrintAppDetail(app);
+            Console.WriteLine("Payment have been made to the appointment above");
         }
 
         #endregion
@@ -146,12 +282,42 @@ namespace CMSConsoleApp
                 .Where(e => e.Doc_Id == docId);
             foreach (var item in DocAppointments)
             {
-                Console.WriteLine("-------------------------");
-                Console.WriteLine("Appointment ID : " + item.App_Id);
-                Console.WriteLine("Patient ID : " + item.Pat_Id);
-                Console.WriteLine("Appointment Date : " + item.App_Date);
-                Console.WriteLine("-------------------------");
+                PrintDocAppDetail(item);
             }
+        }
+
+        public void PrintPastAppDetailsByDocId(int docId)
+        {
+            DateTime today = DateTime.Today;
+
+            var DocAppointments = apps
+                .Where(e => e.Doc_Id == docId && e.App_Date.Date < today);
+            if (DocAppointments.Count() > 0)
+            {
+                foreach (var item in DocAppointments)
+                {
+                    PrintDocAppDetail(item);
+                }
+            }
+            else
+                Console.WriteLine("No Previous Appointments/Records");
+        }
+
+        public void PrintUpcomingAppDetailsByDocId(int docId)
+        {
+            DateTime today = DateTime.Today;
+
+            var DocAppointments = apps
+                .Where(e => e.Doc_Id == docId && e.App_Date.Date >= today);
+            if (DocAppointments.Count() > 0)
+            {
+                foreach (var item in DocAppointments)
+                {
+                    PrintDocAppDetail(item);
+                }
+            }
+            else
+                Console.WriteLine("No Upcoming Appointments");
         }
 
         public void RaisePayment(User user)
@@ -163,28 +329,29 @@ namespace CMSConsoleApp
                 Console.WriteLine("Invalid Id. Cannot edit");
                 return;
             }
-            Console.WriteLine("The selected Appointment to raise payment request: ");
+            if (app.App_PayStatus != 1)
+            {
+                Console.WriteLine("Payment already Raised/Settled");
+                return;
+            }
             PrintAppDetail(app);
+            Console.WriteLine("The Appointment above have been selected to raise payment request");
             double payment;
-            Console.WriteLine("Please enter amount to pay");
-            while (!double.TryParse(Console.ReadLine(), out payment))
+            Console.WriteLine("Please enter amount for the patient to pay");
+            while (!double.TryParse(Console.ReadLine(), out payment) || payment < 0)
             {
                 Console.WriteLine("Invalid entry for amount. Please try again...");
             }
+            Console.WriteLine("Please enter remarks for patient");
+            string remarks = Console.ReadLine();
+            app.App_DocRemarks = remarks;
             app.App_Outstanding = payment;
             app.App_PayStatus = 2;
 
-            Console.WriteLine("Updated. New Details");
             PrintAppDetail(app);
+            Console.WriteLine("Payment request raised for the appointment above");
         }
         #endregion
 
-
-        private void PrintAppDetail(Appointment item)
-        {
-            Console.WriteLine("**************************");
-            Console.WriteLine(item);
-            Console.WriteLine("**************************");
-        }
     }
 }
