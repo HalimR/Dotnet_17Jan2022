@@ -50,7 +50,6 @@ namespace CMSModelsLibrary
             userPass = Console.ReadLine();
             while (userPass.Length < 8 || userPass.Length > 8)
             {
-
                 Console.WriteLine("Try again. The password is 8 character long");
                 userPass = Console.ReadLine();
             }

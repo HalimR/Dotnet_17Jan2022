@@ -147,7 +147,7 @@ namespace CMSConsoleApp
                                 Console.WriteLine("Invalid choice. Please try again");
                                 break;
                         }
-                        Console.WriteLine("-------------------------");
+                        //Console.WriteLine("-------------------------");
                     }
                     catch (NullReferenceException nre)
                     {
@@ -208,7 +208,7 @@ namespace CMSConsoleApp
                                 Console.WriteLine("Invalid choice. Please try again");
                                 break;
                         }
-                        Console.WriteLine("-------------------------");
+                        //Console.WriteLine("-------------------------");
                     }
                     catch (NullReferenceException nre)
                     {

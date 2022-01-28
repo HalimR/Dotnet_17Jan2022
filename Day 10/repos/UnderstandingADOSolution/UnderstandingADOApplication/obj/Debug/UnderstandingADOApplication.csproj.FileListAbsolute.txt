@@ -1,0 +1,7 @@
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 10\repos\UnderstandingADOSolution\UnderstandingADOApplication\bin\Debug\UnderstandingADOApplication.exe.config
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 10\repos\UnderstandingADOSolution\UnderstandingADOApplication\bin\Debug\UnderstandingADOApplication.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 10\repos\UnderstandingADOSolution\UnderstandingADOApplication\bin\Debug\UnderstandingADOApplication.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 10\repos\UnderstandingADOSolution\UnderstandingADOApplication\obj\Debug\UnderstandingADOApplication.csproj.AssemblyReference.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 10\repos\UnderstandingADOSolution\UnderstandingADOApplication\obj\Debug\UnderstandingADOApplication.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 10\repos\UnderstandingADOSolution\UnderstandingADOApplication\obj\Debug\UnderstandingADOApplication.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 10\repos\UnderstandingADOSolution\UnderstandingADOApplication\obj\Debug\UnderstandingADOApplication.pdb
