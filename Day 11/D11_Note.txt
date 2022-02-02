@@ -1,0 +1,48 @@
+DAL - Data Access Layer
+
+Singleton 
+- one object for the class
+- instance,static -> reference
+
+partial 
+- where 2 or more programmer can work on the same class
+- will compile all partial as one
+
+abstract
+-used on base
+-need to inherit
+-will be using override
+-is an instance
+
+static
+
+inner class/nested class
+-security purpose
+-when a class is used specifically for another class
+-the inner class cant be used by other outer class
+
+Struct
+-cannot use as base, inherit
+-cannot abstract, virutal or protect
+-not a class
+-a value type/not reference type
+-assignment purposes, cannot override the value
+
+garbage collector
+-gen 0 -> gen 1 -> gen 2
+-GC.Collector
+-automatic
+
+enum
+-An enumeration type (or enum type) 
+is a value type defined by a set of named constants of the underlying integral numeric type.
+
+Destructor
+-release resource that is not manage by CLR
+
+Employee
+  Id
+  Name
+  Age
+
+Collab w/ gayat19

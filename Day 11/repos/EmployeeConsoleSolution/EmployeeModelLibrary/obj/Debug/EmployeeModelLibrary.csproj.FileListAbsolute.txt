@@ -1,0 +1,5 @@
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeModelLibrary\obj\Debug\EmployeeModelLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeModelLibrary\bin\Debug\EmployeeModelLibrary.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeModelLibrary\bin\Debug\EmployeeModelLibrary.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeModelLibrary\obj\Debug\EmployeeModelLibrary.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeModelLibrary\obj\Debug\EmployeeModelLibrary.pdb

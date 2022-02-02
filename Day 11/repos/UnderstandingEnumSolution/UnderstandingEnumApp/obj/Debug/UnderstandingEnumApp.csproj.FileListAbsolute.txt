@@ -1,0 +1,7 @@
+C:\Users\Abdul\source\repos\UnderstandingEnumSolution\UnderstandingEnumApp\bin\Debug\UnderstandingEnumApp.exe.config
+C:\Users\Abdul\source\repos\UnderstandingEnumSolution\UnderstandingEnumApp\bin\Debug\UnderstandingEnumApp.exe
+C:\Users\Abdul\source\repos\UnderstandingEnumSolution\UnderstandingEnumApp\bin\Debug\UnderstandingEnumApp.pdb
+C:\Users\Abdul\source\repos\UnderstandingEnumSolution\UnderstandingEnumApp\obj\Debug\UnderstandingEnumApp.csproj.AssemblyReference.cache
+C:\Users\Abdul\source\repos\UnderstandingEnumSolution\UnderstandingEnumApp\obj\Debug\UnderstandingEnumApp.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\source\repos\UnderstandingEnumSolution\UnderstandingEnumApp\obj\Debug\UnderstandingEnumApp.exe
+C:\Users\Abdul\source\repos\UnderstandingEnumSolution\UnderstandingEnumApp\obj\Debug\UnderstandingEnumApp.pdb

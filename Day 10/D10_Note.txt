@@ -1,0 +1,33 @@
+ADO.NET
+-Disconected Architecture
+-Connected Architecture
+1.Data Source
+2.user id = sa
+3.password
+4.Initial Catalog -> dbSample28Jan22
+
+cmd -> DML
+insert into tblUser values(@un,@pass,@name,@age)
+result -> int
+
+Example scenario~
+Connectionstring
+Data Source=<desktop>;user id=sa;password=<password>;Initial Catalog=dbSample28Jan2022;
+
+//If using Windows Authentication
+Data Source=<desktop>;Integrated Security=true;Initial Catalog=dbSample28Jan2022;
+
+Other Architecture
+3 tier architecture
+i.e. microservice base architecture
+-if 1db went down, not every db will go down as well
+
+n tier architecture
+
+business logic
+
+appointment show
+appointmentslotid - patid - docid - time - availability -
+print all
+
+SPA - Single page Application -> Front

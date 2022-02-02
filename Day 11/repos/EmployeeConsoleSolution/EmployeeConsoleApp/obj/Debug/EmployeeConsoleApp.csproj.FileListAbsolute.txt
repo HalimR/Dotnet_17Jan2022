@@ -1,0 +1,12 @@
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeConsoleApp\obj\Debug\EmployeeConsoleApp.csproj.AssemblyReference.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeConsoleApp\obj\Debug\EmployeeConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeConsoleApp\bin\Debug\EmployeeConsoleApp.exe.config
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeConsoleApp\bin\Debug\EmployeeConsoleApp.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeConsoleApp\bin\Debug\EmployeeConsoleApp.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeConsoleApp\bin\Debug\EmployeeDALLibrary.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeConsoleApp\bin\Debug\EmployeeModelLibrary.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeConsoleApp\bin\Debug\EmployeeDALLibrary.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeConsoleApp\bin\Debug\EmployeeModelLibrary.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeConsoleApp\obj\Debug\EmployeeConsoleApp.csproj.CopyComplete
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeConsoleApp\obj\Debug\EmployeeConsoleApp.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeConsoleApp\obj\Debug\EmployeeConsoleApp.pdb
