@@ -1,0 +1,9 @@
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeDALLibrary\obj\Debug\EmployeeDALLibrary.csproj.AssemblyReference.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeDALLibrary\obj\Debug\EmployeeDALLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeDALLibrary\bin\Debug\EmployeeDALLibrary.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeDALLibrary\bin\Debug\EmployeeDALLibrary.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeDALLibrary\bin\Debug\EmployeeModelLibrary.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeDALLibrary\bin\Debug\EmployeeModelLibrary.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeDALLibrary\obj\Debug\EmployeeDALLibrary.csproj.CopyComplete
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeDALLibrary\obj\Debug\EmployeeDALLibrary.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 11\repos\EmployeeConsoleSolution\EmployeeDALLibrary\obj\Debug\EmployeeDALLibrary.pdb

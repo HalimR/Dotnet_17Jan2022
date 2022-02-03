@@ -1,0 +1,12 @@
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\UnderstandingEFSolution\UnderstandingEFApplication\bin\Debug\UnderstandingEFApplication.exe.config
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\UnderstandingEFSolution\UnderstandingEFApplication\bin\Debug\UnderstandingEFApplication.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\UnderstandingEFSolution\UnderstandingEFApplication\bin\Debug\UnderstandingEFApplication.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\UnderstandingEFSolution\UnderstandingEFApplication\bin\Debug\EntityFramework.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\UnderstandingEFSolution\UnderstandingEFApplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\UnderstandingEFSolution\UnderstandingEFApplication\bin\Debug\EntityFramework.xml
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\UnderstandingEFSolution\UnderstandingEFApplication\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\UnderstandingEFSolution\UnderstandingEFApplication\obj\Debug\UnderstandingEFApplication.csproj.AssemblyReference.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\UnderstandingEFSolution\UnderstandingEFApplication\obj\Debug\UnderstandingEFApplication.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\UnderstandingEFSolution\UnderstandingEFApplication\obj\Debug\UnderstandingEFApplication.csproj.CopyComplete
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\UnderstandingEFSolution\UnderstandingEFApplication\obj\Debug\UnderstandingEFApplication.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\UnderstandingEFSolution\UnderstandingEFApplication\obj\Debug\UnderstandingEFApplication.pdb

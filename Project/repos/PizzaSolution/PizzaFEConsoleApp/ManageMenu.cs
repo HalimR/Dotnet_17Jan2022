@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using PizzaDALLibrary;
+using PizzaDALEFLibrary;
 using PizzaModelsLibrary;
 
 namespace PizzaFEConsoleApp
@@ -67,6 +67,7 @@ namespace PizzaFEConsoleApp
             catch (Exception e)
             {
                 Console.WriteLine("Could not add the pizza");
+                Console.WriteLine(e.StackTrace);
                 Console.WriteLine(e.Message);
             }
         }

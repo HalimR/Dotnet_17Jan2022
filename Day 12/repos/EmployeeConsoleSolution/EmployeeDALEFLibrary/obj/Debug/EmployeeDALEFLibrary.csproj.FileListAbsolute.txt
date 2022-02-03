@@ -1,0 +1,14 @@
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\EmployeeConsoleSolution\EmployeeDALEFLibrary\obj\Debug\EmployeeDALEFLibrary.csproj.AssemblyReference.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\EmployeeConsoleSolution\EmployeeDALEFLibrary\obj\Debug\EmployeeDALEFLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\EmployeeConsoleSolution\EmployeeDALEFLibrary\bin\Debug\EmployeeDALEFLibrary.dll.config
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\EmployeeConsoleSolution\EmployeeDALEFLibrary\bin\Debug\EmployeeDALEFLibrary.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\EmployeeConsoleSolution\EmployeeDALEFLibrary\bin\Debug\EmployeeDALEFLibrary.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\EmployeeConsoleSolution\EmployeeDALEFLibrary\bin\Debug\EmployeeModelLibrary.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\EmployeeConsoleSolution\EmployeeDALEFLibrary\bin\Debug\EntityFramework.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\EmployeeConsoleSolution\EmployeeDALEFLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\EmployeeConsoleSolution\EmployeeDALEFLibrary\bin\Debug\EmployeeModelLibrary.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\EmployeeConsoleSolution\EmployeeDALEFLibrary\bin\Debug\EntityFramework.xml
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\EmployeeConsoleSolution\EmployeeDALEFLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\EmployeeConsoleSolution\EmployeeDALEFLibrary\obj\Debug\EmployeeDALEFLibrary.csproj.CopyComplete
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\EmployeeConsoleSolution\EmployeeDALEFLibrary\obj\Debug\EmployeeDALEFLibrary.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 12\repos\EmployeeConsoleSolution\EmployeeDALEFLibrary\obj\Debug\EmployeeDALEFLibrary.pdb

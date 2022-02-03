@@ -1,0 +1,15 @@
+Today: Entity Framework
+-ADO.Net will be done implicitly
+
+Plan:
+-HTML -> CSS -> Bootscrap -> Javascript -> MVC -> Web Api -> Connect
+
+ORM => Object Relational Mapping
+RDBMS	-> PL (Procedural Langugage ext of SQL)
+Tables	-> Collection
+Rows	-> Object
+Fields	-> Attribute
+
+Entity Framework
+Scaffolding -  Auto code generation
+

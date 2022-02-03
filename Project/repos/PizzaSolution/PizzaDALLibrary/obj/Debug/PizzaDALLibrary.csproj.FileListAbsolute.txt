@@ -7,12 +7,3 @@ E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALLibrary\obj\
 E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALLibrary\obj\Debug\PizzaDALLibrary.csproj.CopyComplete
 E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALLibrary\obj\Debug\PizzaDALLibrary.dll
 E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALLibrary\obj\Debug\PizzaDALLibrary.pdb
-C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALLibrary\bin\Debug\PizzaDALLibrary.dll
-C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALLibrary\bin\Debug\PizzaDALLibrary.pdb
-C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALLibrary\bin\Debug\PizzaModelsLibrary.dll
-C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALLibrary\bin\Debug\PizzaModelsLibrary.pdb
-C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALLibrary\obj\Debug\PizzaDALLibrary.csproj.AssemblyReference.cache
-C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALLibrary\obj\Debug\PizzaDALLibrary.csproj.CoreCompileInputs.cache
-C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALLibrary\obj\Debug\PizzaDALLibrary.csproj.CopyComplete
-C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALLibrary\obj\Debug\PizzaDALLibrary.dll
-C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALLibrary\obj\Debug\PizzaDALLibrary.pdb
