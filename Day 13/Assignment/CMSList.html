@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>CMS html</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h3>Table/List</h3>
+        <div>
+            <p>User</p>
+            <table border="1">
+                <tr>
+                    <th> Data </th>
+                    <th> Data Type </th>
+                    <th> Remarks </th>
+                </tr>
+                <tr>
+                    <td> User_Id </td>
+                    <td> int </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td> User_Name </td>
+                    <td> string </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td> User_Password </td>
+                    <td> string </td>
+                    <td> Only 8 characters </td>
+                </tr>
+                <tr>
+                    <td> User_Type </td>
+                    <td> int </td>
+                    <td> 1-Patient, 2-Doctor </td>
+                </tr>
+                <tr>
+                    <td> User_Experience </td>
+                    <td> int </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td> User_Specialization </td>
+                    <td> string </td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <br />
+        <div>
+            <p>Appointment</p>
+            <table border="1">
+                <tr>
+                    <th> Data </th>
+                    <th> Data Type </th>
+                    <th> Remarks </th>
+                </tr>
+                <tr>
+                    <td> App_Id </td>
+                    <td> int </td>
+                    <td> Appointment ID </td>
+                </tr>
+                <tr>
+                    <td> Pat_Id </td>
+                    <td> int </td>
+                    <td> Patient ID</td>
+                </tr>
+                <tr>
+                    <td> Doc_Id </td>
+                    <td> int </td>
+                    <td> Doctor ID </td>
+                </tr>
+                <tr>
+                    <td> App_Date </td>
+                    <td> DateTime </td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td> App_Outstanding </td>
+                    <td> int </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td> App_PayStatus </td>
+                    <td> int </td>
+                    <td> 1- Not Raised, 2 - Raised, 3 - Payed </td>
+                </tr>
+                <tr>
+                    <td> App_PatRemarks </td>
+                    <td> string </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td> App_DocRemarks </td>
+                    <td> string </td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

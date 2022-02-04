@@ -1,0 +1,4 @@
+Entity Framework Concept
+
+HTML
+-structure -> Document Object Model (DOM)

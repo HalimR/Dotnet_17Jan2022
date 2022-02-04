@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>CMS html</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>
+            Clinic Management System (CMS) Console Application
+        </h1>
+        <h3>
+            By Halim Rahman
+        </h3>
+    </div>
+    <div class="topnav">
+        <a target="MainContent" href="CMSRequirement.html">Requirement</a>
+        <a target="MainContent" href="CMSClass.html">Classes</a>
+        <a target="MainContent" href="CMSList.html">Table/List</a>
+        <a target="MainContent" href="CMSPremadeList.html">Premade List</a>
+        <a target="MainContent" href="CMSDemo.html">Demo</a>
+    </div>
+    <iframe name="MainContent" src="CMSRequirement.html" height="1000" width="1500">
+    </iframe>
+    <!--<div>
+        <h3>Requirements</h3>
+        <div>
+            <p>Patient</p>
+            <ol>
+                <li>Book Appointment</li>
+                <li>Pay Appointment</li>
+                <li>View Upcoming Appointment</li>
+                <li>View Past Appointment</li>
+            </ol>
+        </div>
+        <div>
+            <p>Doctor</p>
+            <ol>
+                <li>View Upcoming Appointment</li>
+                <li>View Past Appointment</li>
+                <li>Raise payment for Appointment</li>
+                <li>Add Remarks while raising payment for appointment</li>
+            </ol>
+        </div>
+    </div>
+    <div>
+        <h3>Classes</h3>
+        <div>
+            <p>ManageMenu</p>
+            <ol>
+                <li>Insertion of list of users</li>
+                <li>Method: Get User Id/Password</li>
+                <li>Method: Print User detail</li>
+                <li>Method: Print Doctor List</li>
+            </ol>
+        </div>
+        <div>
+            <p>ManageAppointment</p>
+            <ol>
+                <li>Insertion of list of appointments</li>
+                <li>Method: Get Appointment (by Patient/Doctor)</li>
+                <li>Method: Booking Appointment (Patient)</li>
+                <li>Method: Make payment for Appointment (Patient)</li>
+                <li>Method: Raise payment for Appointment (Doctor)</li>
+            </ol>
+        </div>
+        <div>
+            <p>Appointment</p>
+            <ol>
+                <li>Encapsulate appointment properties</li>
+                <li>Method: Get Appointment Date</li>
+                <li>Override: Print Appoitment</li>
+            </ol>
+        </div>
+        <div>
+            <p>User</p>
+            <ol>
+                <li>Encapsulate user properties</li>
+                <li>Masked user's password</li>
+                <li>Method: Get User ID & Password</li>
+                <li>Overrid: Print User Detail</li>
+            </ol>
+        </div>
+    </div>
+    <br />
+    <div>
+        <h3>Table/List</h3>
+        <div>
+            <p>User</p>
+            <table border="1">
+                <tr>
+                    <th> Data </th>
+                    <th> Data Type </th>
+                    <th> Remarks </th>
+                </tr>
+                <tr>
+                    <td> User_Id </td>
+                    <td> int </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td> User_Name </td>
+                    <td> string </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td> User_Password </td>
+                    <td> string </td>
+                    <td> Only 8 characters </td>
+                </tr>
+                <tr>
+                    <td> User_Type </td>
+                    <td> int </td>
+                    <td> 1-Patient, 2-Doctor </td>
+                </tr>
+                <tr>
+                    <td> User_Experience </td>
+                    <td> int </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td> User_Specialization </td>
+                    <td> string </td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <br />
+        <div>
+            <p>Appointment</p>
+            <table border="1">
+                <tr>
+                    <th> Data </th>
+                    <th> Data Type </th>
+                    <th> Remarks </th>
+                </tr>
+                <tr>
+                    <td> App_Id </td>
+                    <td> int </td>
+                    <td> Appointment ID </td>
+                </tr>
+                <tr>
+                    <td> Pat_Id </td>
+                    <td> int </td>
+                    <td> Patient ID</td>
+                </tr>
+                <tr>
+                    <td> Doc_Id </td>
+                    <td> int </td>
+                    <td> Doctor ID </td>
+                </tr>
+                <tr>
+                    <td> App_Date </td>
+                    <td> DateTime </td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td> App_Outstanding </td>
+                    <td> int </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td> App_PayStatus </td>
+                    <td> int </td>
+                    <td> 1- Not Raised, 2 - Raised, 3 - Payed </td>
+                </tr>
+                <tr>
+                    <td> App_PatRemarks </td>
+                    <td> string </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td> App_DocRemarks </td>
+                    <td> string </td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br />
+    <div>
+        <h3>Premade List</h3>
+        <div>
+            <p>User</p>
+            <table border="1">
+                <tr>
+                    <th> User_Id </th>
+                    <th> User_Name </th>
+                    <th> User_Password </th>
+                    <th> User_Type </th>
+                    <th> User_Experience </th>
+                    <th> User_Specialization </th>
+                </tr>
+                <tr>
+                    <td> 101 </td>
+                    <td> Bob </td>
+                    <td> abcd1234 </td>
+                    <td> 1 </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td> 102 </td>
+                    <td> Sarah </td>
+                    <td> abcd1234 </td>
+                    <td> 2 </td>
+                    <td> 5 </td>
+                    <td> Family Physician </td>
+                </tr>
+                <tr>
+                    <td> 103 </td>
+                    <td> Ash </td>
+                    <td> abcd1234 </td>
+                    <td> 1 </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td> 104 </td>
+                    <td> Liam </td>
+                    <td> abcd1234 </td>
+                    <td> 2 </td>
+                    <td> 4 </td>
+                    <td> Cardiologist </td>
+                </tr>
+            </table>
+        </div>
+        <br />
+        <div>
+            <p>Appointment</p>
+            <table border="1">
+                <tr>
+                    <th> App_Id </th>
+                    <th> Pat_Id </th>
+                    <th> Doc_Id </th>
+                    <th> App_Date </th>
+                    <th> App_Outstanding </th>
+                    <th> App_PayStatus </th>
+                </tr>
+                <tr>
+                    <td> 1 </td>
+                    <td> 101 </td>
+                    <td> 102 </td>
+                    <td> 25/01/2022 - 10AM </td>
+                    <td> 0.00 </td>
+                    <td> 1 </td>
+                </tr>
+                <tr>
+                    <td> 2 </td>
+                    <td> 101 </td>
+                    <td> 102 </td>
+                    <td> 26/01/2022 - 10AM </td>
+                    <td> 124.61 </td>
+                    <td> 2 </td>
+                </tr>
+                <tr>
+                    <td> 3 </td>
+                    <td> 103 </td>
+                    <td> 104 </td>
+                    <td> 28/01/2022 - 2PM </td>
+                    <td> 21.21 </td>
+                    <td> 2 </td>
+                </tr>
+                <tr>
+                    <td> 4 </td>
+                    <td> 103 </td>
+                    <td> 104 </td>
+                    <td> 25/01/2022 - 2PM </td>
+                    <td> 0.00 </td>
+                    <td> 3 </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <hr color="red" />
+    <div>
+        <p> Demo (Output:)</p>
+        <video controls>
+            <source src="./resources/videos/CMSConsoleApplicationOutput.mp4" type="video/mp4" />
+        </video>
+    </div>-->
+</body>
+</html>

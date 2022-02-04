@@ -13,6 +13,7 @@ namespace PizzaModelsLibrary
         public Cart Cart { get; set; }
 
         public int CartNumber { get; set; }
+
         [ForeignKey("PizzaId")]
         public Pizza Pizza { get; set; }
         public int PizzaId { get; set; }

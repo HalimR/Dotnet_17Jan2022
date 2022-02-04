@@ -12,6 +12,7 @@ namespace PizzaFEConsoleApp
     {
         //Pizza[] pizzas;
         List<Pizza> pizzas;
+        List<Customer> customers;
         PizzaDAL pizzaDAL;
         public Pizza this[int index]
         {
@@ -27,10 +28,10 @@ namespace PizzaFEConsoleApp
         }
         void GetAllPizzas()
         {
-            pizzas = null;
+            customers = null;
             try
             {
-                pizzas = pizzaDAL.GetAllPizzas().ToList();
+                customers = pizzaDAL.GetAllPizzas().ToList();
             }
             catch (NoPizzaException npe)
             {

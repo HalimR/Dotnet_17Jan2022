@@ -12,3 +12,17 @@ E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALEFLibrary\bi
 E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALEFLibrary\obj\Debug\PizzaDALEFLibrary.csproj.CopyComplete
 E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALEFLibrary\obj\Debug\PizzaDALEFLibrary.dll
 E:\Corp\Cognixia\Dotnet17Jan2022\Participants\PizzaSolution\PizzaDALEFLibrary\obj\Debug\PizzaDALEFLibrary.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALEFLibrary\bin\Debug\PizzaDALEFLibrary.dll.config
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALEFLibrary\bin\Debug\PizzaDALEFLibrary.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALEFLibrary\bin\Debug\PizzaDALEFLibrary.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALEFLibrary\bin\Debug\EntityFramework.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALEFLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALEFLibrary\bin\Debug\PizzaModelsLibrary.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALEFLibrary\bin\Debug\PizzaModelsLibrary.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALEFLibrary\bin\Debug\EntityFramework.xml
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALEFLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALEFLibrary\obj\Debug\PizzaDALEFLibrary.csproj.AssemblyReference.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALEFLibrary\obj\Debug\PizzaDALEFLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALEFLibrary\obj\Debug\PizzaDALEFLibrary.csproj.CopyComplete
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALEFLibrary\obj\Debug\PizzaDALEFLibrary.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Project\repos\PizzaSolution\PizzaDALEFLibrary\obj\Debug\PizzaDALEFLibrary.pdb

@@ -21,13 +21,21 @@ namespace PizzaDALEFLibrary
         ///      ICollection&lt;Pizza&gt;
         /// </returns>
         /// <exception cref="NoPizzaException"></exception>
-        public ICollection<Pizza> GetAllPizzas()
+        //public ICollection<Pizza> GetAllPizzas()
+        //{
+        //    List<Pizza> pizzas =_pizzaContext.Pizzas.ToList();
+        //    if (pizzas.Count == 0)
+        //        throw new NoPizzaException();
+        //    return pizzas;
+        //}
+        public ICollection<Customer> GetAllPizzas()
         {
-            List<Pizza> pizzas =_pizzaContext.Pizzas.ToList();
-            if (pizzas.Count == 0)
+            List<Customer> customers = _pizzaContext.Customers.ToList();
+            if (customers.Count == 0)
                 throw new NoPizzaException();
-            return pizzas;
+            return customers;
         }
+
         public bool InsertNewPizza(Pizza pizza)
         {
            _pizzaContext.Pizzas.Add(pizza);
