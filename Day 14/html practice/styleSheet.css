@@ -1,0 +1,35 @@
+﻿body {
+    background-color: lightskyblue;
+}
+
+#divLogin {
+    border: double 2px blue;
+    /*border-color: red blue yellow green;*/ /*top, right, bottom, left*/
+    /*border-color: red blue yellow;*/ /*top, left&right, bottom*/
+    /*border-color: red blue;*/ /*top&bottom, left&right*/
+    width: 350px;
+    position: absolute;
+    /* top: 20%;
+            left: 30%;*/
+    height: 120px;
+    left: 600px;
+    top: 250px;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+
+.clsInput {
+    position: absolute;
+    left: 100px;
+}
+
+.loginContainer {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+#spanButtons {
+    position: absolute;
+    left: 100px;
+}
