@@ -1,0 +1,21 @@
+﻿@model AssignmentD16Application.Models.Product
+
+<h3>Product Details</h3>
+<hr />
+@using (Html.BeginForm("Details", "Product", FormMethod.Post))
+{
+    @Html.LabelFor(m=>m.Id, htmlAttributes:new{@class="form-label"})
+    @Html.EditorFor(m=>m.Id, new{@htmlAttributes=new{@class="form-control", @disabled = "disabled"}})
+    @Html.LabelFor(m=>m.Name,htmlAttributes:new{@class="form-label"})
+    @Html.EditorFor(m=>m.Name,new{@htmlAttributes=new{@class="form-control", @disabled = "disabled"}})
+    @Html.LabelFor(m=>m.Price,htmlAttributes:new{@class="form-label"})
+    @Html.EditorFor(m=>m.Price,new{@htmlAttributes=new{@class="form-control", @disabled = "disabled"}})
+    @Html.LabelFor(m=>m.SupplierId,htmlAttributes:new{@class="form-label"})
+    @Html.EditorFor(m=>m.SupplierId,new{@htmlAttributes=new{@class="form-control", @disabled = "disabled"}})
+    @Html.LabelFor(m=>m.Quantity,htmlAttributes:new{@class="form-label"})
+    @Html.EditorFor(m=>m.Quantity,new{@htmlAttributes=new{@class="form-control", @disabled = "disabled"}})
+    @Html.LabelFor(m=>m.Remarks,htmlAttributes:new{@class="form-label"})
+    @Html.EditorFor(m=>m.Remarks,new{@htmlAttributes=new{@class="form-control", @disabled = "disabled"}})
+    <br />
+    <a href='@Url.Action("Index", "Product")' class="btn btn-primary">Go Back</a>
+}

@@ -1,0 +1,23 @@
+﻿@model AssignmentD16Application.Models.Product
+
+<h3>Edit Product</h3>
+<hr />
+@using (Html.BeginForm("Edit", "Product", FormMethod.Post))
+{
+    @Html.LabelFor(m=>m.Id, htmlAttributes:new{@class="form-label"})
+    @Html.EditorFor(m=>m.Id, new{@htmlAttributes=new{@class="form-control"}})
+    @Html.LabelFor(m=>m.Name,htmlAttributes:new{@class="form-label"})
+    @Html.EditorFor(m=>m.Name,new{@htmlAttributes=new{@class="form-control"}})
+    @Html.LabelFor(m=>m.Price,htmlAttributes:new{@class="form-label"})
+    @Html.EditorFor(m=>m.Price,new{@htmlAttributes=new{@class="form-control"}})
+    @Html.LabelFor(m=>m.SupplierId,htmlAttributes:new{@class="form-label"})
+    @Html.EditorFor(m=>m.SupplierId,new{@htmlAttributes=new{@class="form-control"}})
+    @Html.LabelFor(m=>m.Quantity,htmlAttributes:new{@class="form-label"})
+    @Html.EditorFor(m=>m.Quantity,new{@htmlAttributes=new{@class="form-control"}})
+    @Html.LabelFor(m=>m.Remarks,htmlAttributes:new{@class="form-label"})
+    @Html.EditorFor(m=>m.Remarks,new{@htmlAttributes=new{@class="form-control"}})
+    <br />
+    <input type="submit" value="Edit Product" class="btn btn-success" /> 
+
+    <a href='@Url.Action("Index", "Product")' class="btn btn-primary">Go Back</a>
+}
