@@ -1,0 +1,48 @@
+﻿@model IEnumerable<PizzaApplication.Models.Pizza>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                IsVeg
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.PizzaID
+                </td>
+                <td>
+                    @item.Name
+                </td>
+                <td>
+                    @item.Price
+                </td>
+                <td>
+                    @* <input type="checkbox" checked= @item.IsVeg>*@
+                    @Html.CheckBoxFor(m=>item.IsVeg,new {@checked=@item.IsVeg, @disabled = "disabled"})
+                </td>
+                <td>
+                    @Html.ActionLink("Edit","Edit", new{id=item.PizzaID}) |
+                    @Html.ActionLink("Details","Details", new{id=item.PizzaID}) |
+                    @Html.ActionLink("Delete","Delete", new{id=item.PizzaID})
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

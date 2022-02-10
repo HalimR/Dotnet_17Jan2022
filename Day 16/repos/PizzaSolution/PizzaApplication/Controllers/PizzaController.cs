@@ -29,12 +29,6 @@ namespace PizzaApplication.Controllers
             return View(pizzas);
         }
 
-        [HttpGet]
-        public IActionResult Create()
-        {
-            return View();
-        }
-
         //[HttpPost]
         //public IActionResult Create(IFormCollection keyValues) //this doesnt require model at Create.cshtml
         //{
@@ -45,10 +39,55 @@ namespace PizzaApplication.Controllers
         //    return RedirectToAction("Index");
         //}
 
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult Create(Pizza pizza)
         {
             Pizzas.Add(pizza);
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult Details(int id)
+        {
+            Pizza pizzaSelect = Pizzas.FirstOrDefault(p => p.Id == id);
+            return View(pizzaSelect);
+        }
+
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            Pizza pizzaSelect = Pizzas.FirstOrDefault(p => p.Id == id);
+            return View(pizzaSelect);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(int id, Pizza pizza)
+        {
+            Pizza pizzaSelect = Pizzas.FirstOrDefault(p => p.Id == id);
+            pizzaSelect.Name = pizza.Name;  
+            pizzaSelect.Price = pizza.Price;
+            pizzaSelect.IsVeg = pizza.IsVeg;
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            Pizza pizzaSelect = Pizzas.FirstOrDefault(p => p.Id == id);
+            return View(pizzaSelect);
+        }
+
+        [HttpPost]
+        public IActionResult Delete(int id, Pizza pizza)
+        {
+            Pizza pizzaSelect = Pizzas.FirstOrDefault(p => p.Id == id);
+            Pizzas.Remove(pizzaSelect);
             return RedirectToAction("Index");
         }
     }

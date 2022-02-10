@@ -1,0 +1,29 @@
+﻿@model PizzaApplication.Models.Pizza
+
+@*<form action="Create" method="post">
+    <label class="form-label">Pizza ID</label>
+    <input type="number" name=id class="form-control" />
+    <label class="form-label">Pizza Name</label>
+    <input type="text" name=name class="form-control" />
+    <label class="form-label">Pizza Price</label>
+    <input type="number" name=price class="form-control" />
+    <label class="form-label">Is Veg?</label>
+    <div class="checkbox">
+        <label><input type="checkbox" name=isVeg />True, Veg Food</label>
+    </div>
+    
+    <input type="submit" class="btn btn-success" value="Create Pizza" />
+</form>*@
+
+@using(Html.BeginForm("Create", "Pizza", FormMethod.Post)){
+    @Html.LabelFor(m=>m.PizzaID, htmlAttributes:new{@class="form-label"})
+    @Html.EditorFor(m=>m.PizzaID, new{@htmlAttributes=new{@class="form-control"}})
+    @Html.LabelFor(m=>m.Name,htmlAttributes:new{@class="form-label"})
+    @Html.EditorFor(m=>m.Name,new{@htmlAttributes=new{@class="form-control"}})
+    @Html.LabelFor(m=>m.Price,htmlAttributes:new{@class="form-label"})
+    @Html.EditorFor(m=>m.Price,new{@htmlAttributes=new{@class="form-control"}})
+    @Html.LabelFor(m=>m.IsVeg,htmlAttributes:new{@class="form-label"})
+@*    @Html.CheckBoxFor(m=>m.IsVeg,new {@checked=Model.IsVeg})*@
+    @Html.CheckBoxFor(m=>m.IsVeg)
+     <input type="submit" value="Create Pizza" class="btn btn-success"/>
+}

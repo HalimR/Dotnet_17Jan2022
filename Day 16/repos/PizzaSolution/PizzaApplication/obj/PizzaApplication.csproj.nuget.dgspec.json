@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 15\\repos\\PizzaSolution\\PizzaApplication\\PizzaApplication.csproj": {}
+    "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 16\\repos\\PizzaSolution\\PizzaApplication\\PizzaApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 15\\repos\\PizzaSolution\\PizzaApplication\\PizzaApplication.csproj": {
+    "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 16\\repos\\PizzaSolution\\PizzaApplication\\PizzaApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 15\\repos\\PizzaSolution\\PizzaApplication\\PizzaApplication.csproj",
+        "projectUniqueName": "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 16\\repos\\PizzaSolution\\PizzaApplication\\PizzaApplication.csproj",
         "projectName": "PizzaApplication",
-        "projectPath": "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 15\\repos\\PizzaSolution\\PizzaApplication\\PizzaApplication.csproj",
+        "projectPath": "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 16\\repos\\PizzaSolution\\PizzaApplication\\PizzaApplication.csproj",
         "packagesPath": "C:\\Users\\Abdul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 15\\repos\\PizzaSolution\\PizzaApplication\\obj\\",
+        "outputPath": "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 16\\repos\\PizzaSolution\\PizzaApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
