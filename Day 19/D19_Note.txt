@@ -1,0 +1,18 @@
+Tuesday -> Testing
+Wednesday -> Q&A, Recap/Review
+Thursday -> Web API
+
+Today: Validation, Value carry over
+
+Data Annotation
+-added in Model Class on top of var
+-using System.ComponentModel.DataAnnotations
+-i.e. :
+[Required(ErrorMessage = "Cannot be empty")]
+[Range(18,35,ErrorMessage = "Invalid value")]
+
+Controller Validation
+-ModelState.IsValid
+
+View Model
+-associate with repo model

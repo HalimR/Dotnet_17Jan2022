@@ -1,0 +1,17 @@
+Creating an MVC project
+1. Create model class
+2. Dependency -> Manage NuGet Packages
+3. Install SqlServer (Microsoft.EntityFrameworkCore.SqlServer)
+4. Install Tools (Microsoft.EntityFrameworkCore.Tools)
+5. Create Context class -> Models
+6. Add ConnectionStrings -> appsettings.json
+7. AddDbContext -> Program.cs (vs2022/.NET 6)
+8. Package Manager Console => Add-Migration <name>
+9. Package Manager Console => Update-Database
+10. Add Folder <Services> to Project
+11. Create Interface => IRepo => CRUD -> Services
+12. Create "service" class for model -> Services
+12.1. Add context into that class
+13. Add Services.AddScoped -> Program.cs
+14. Create Controller -> Controllers
+15. Create View by the method in Controller

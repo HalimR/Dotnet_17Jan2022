@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 15\\repos\\AssignmentD16Solution\\AssignmentD16Application\\AssignmentD16Application.csproj",
+      "projectUniqueName": "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 16\\Assignment\\AssignmentD16Solution\\AssignmentD16Application\\AssignmentD16Application.csproj",
       "projectName": "AssignmentD16Application",
-      "projectPath": "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 15\\repos\\AssignmentD16Solution\\AssignmentD16Application\\AssignmentD16Application.csproj",
+      "projectPath": "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 16\\Assignment\\AssignmentD16Solution\\AssignmentD16Application\\AssignmentD16Application.csproj",
       "packagesPath": "C:\\Users\\Abdul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 15\\repos\\AssignmentD16Solution\\AssignmentD16Application\\obj\\",
+      "outputPath": "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 16\\Assignment\\AssignmentD16Solution\\AssignmentD16Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
