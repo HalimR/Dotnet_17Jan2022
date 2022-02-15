@@ -2,7 +2,7 @@
 
 namespace SampleMVCApplication.Models
 {
-    public class ShopContext : IdentityDBContext<Customer>
+    public class ShopContext : DbContext
     {
         public ShopContext(DbContextOptions options): base(options)
         {

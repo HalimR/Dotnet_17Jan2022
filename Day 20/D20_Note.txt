@@ -1,0 +1,42 @@
+Session
+Testing - Coverage 80%
+
+[Patial View]
+-in this case, place partial page in Shared Folder
+@Html.Partial("_PageName")
+OR
+@{
+    Html.RenderPartial("_Welcome");
+}
+-Render Partial is faster
+-Partial => process everthing b4 execute
+-note: Render Partial is advised to be used on more big/complicated work
+
+[Session]
+-Program.cs
+builder.Services.AddSession(opts =>
+{
+	opts.IdleTimeout = TimeSpan.FromMinutes(5); //Ideal for banking (timer), default is 20min
+}
+app.UseSession(); //On Configuration
+Example:
+HttpContext.Session.SetString("un", user.Username); <-Controller
+ViewBag.Username = HttpContext.Session.GetString("un"); <-get and init
+@ViewBag.Username <-view
+
+//Session.clear
+
+
+[Testing]
+Example:
+UserTempServie.cs
+New Project -> N Unit Test Project -> <ProjectName>Test
+To run test -> Right click on method -> Test
+-Setup() will always run whever running a test
+Example:
+Arrange -> on setup -> _repo = new UserTempService();
+Act -> var result = _repo.Remove("3");
+Assert -> Assert.IsTrue(result)
+
+NuGet -> Package MOQ
+

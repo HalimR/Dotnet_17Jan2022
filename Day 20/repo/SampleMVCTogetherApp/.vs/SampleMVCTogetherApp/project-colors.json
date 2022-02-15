@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "dfca08da-84ee-4d70-aacb-62a7de260a20": {
+      "ProjectGuid": "dfca08da-84ee-4d70-aacb-62a7de260a20",
+      "DisplayName": "SampleMVCTogetherApp",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "445b2477-ac31-45c3-939b-1a8f4353d2c8": {
+      "ProjectGuid": "445b2477-ac31-45c3-939b-1a8f4353d2c8",
+      "DisplayName": "SampleMVCTogetherTest",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
