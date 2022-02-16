@@ -1,0 +1,29 @@
+WebAPI
+
+wwf- windows workflow foundation
+wcf - windows communication foundation -backend
+wpf - windows presentation foundation -front
+xaml
+
+Http [Action]
+Read - Get
+Update - Put
+Insert/Create - Post
+Delete -Delete
+
+REST - Representational State Transfer
+
+Service [calls]-> WebApi
+
+When execute WebApi Project, it will load swagger
+
+Example:
+http://localhost:5294/api/Customer -get
+
+http://localhost:5294/api/Customer -post
+
+Steps with Postman
+1. Enter URL for that API
+2. Select Action -> Post
+3. Body -> Raw -> Json 
+4. Enter value -> Send
