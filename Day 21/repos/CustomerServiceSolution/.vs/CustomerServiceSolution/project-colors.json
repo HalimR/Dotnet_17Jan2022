@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5dbcc096-d235-4a6c-af02-b1c0726d1a26": {
+      "ProjectGuid": "5dbcc096-d235-4a6c-af02-b1c0726d1a26",
+      "DisplayName": "CustomerServiceApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

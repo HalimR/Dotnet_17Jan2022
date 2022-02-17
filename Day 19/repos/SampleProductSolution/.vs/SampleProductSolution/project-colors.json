@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "51e1c9ab-fef5-4985-afde-c50c88dadf24": {
+      "ProjectGuid": "51e1c9ab-fef5-4985-afde-c50c88dadf24",
+      "DisplayName": "SampleProductApplication",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

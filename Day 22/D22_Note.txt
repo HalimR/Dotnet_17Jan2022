@@ -1,0 +1,17 @@
+Remote Database
+
+Front End -> Back End
+
+Authentication
+Token Based
+JW Token (Json Web Token)
+
+Web API
+Http Status Codes
+1XX - Info
+2XX - Success
+3XX - Redirection
+4XX - Client Side Error
+5XX - Server Side Error
+
+IEnumerable > ICollection

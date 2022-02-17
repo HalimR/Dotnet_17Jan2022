@@ -1,0 +1,122 @@
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\appsettings.Development.json
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\appsettings.json
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\FirstAPI.exe
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\FirstAPI.deps.json
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\FirstAPI.runtimeconfig.json
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\FirstAPI.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\ref\FirstAPI.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\FirstAPI.pdb
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.csproj.AssemblyReference.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.GeneratedMSBuildEditorConfig.editorconfig
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.AssemblyInfoInputs.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.AssemblyInfo.cs
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.csproj.CoreCompileInputs.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.MvcApplicationPartsAssemblyInfo.cs
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.MvcApplicationPartsAssemblyInfo.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\obj\Debug\net6.0\staticwebassets.build.json
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\obj\Debug\net6.0\staticwebassets.development.json
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\obj\Debug\net6.0\scopedcss\bundle\FirstAPI.styles.css
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.csproj.CopyComplete
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\obj\Debug\net6.0\ref\FirstAPI.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.pdb
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.genruntimeconfig.cache
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\Humanizer.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Corp\Cognixia\Dotnet17Jan2022\Participants\Day20\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\FirstAPI.exe
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\FirstAPI.deps.json
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\FirstAPI.runtimeconfig.json
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\FirstAPI.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\ref\FirstAPI.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\FirstAPI.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.csproj.AssemblyReference.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.AssemblyInfoInputs.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.AssemblyInfo.cs
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\obj\Debug\net6.0\scopedcss\bundle\FirstAPI.styles.css
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.csproj.CopyComplete
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\obj\Debug\net6.0\ref\FirstAPI.dll
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.pdb
+C:\Users\Abdul\Documents\Dotnet_17Jan2022\Day 22\repos\FirstAPI\FirstAPI\obj\Debug\net6.0\FirstAPI.genruntimeconfig.cache

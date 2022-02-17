@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Project\\repos\\T3ProjectSolution\\T3ProjectApplication\\T3ProjectApplication.csproj": {}
+    "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 17\\Assignment\\T3ProjectSolution\\T3ProjectApplication\\T3ProjectApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Project\\repos\\T3ProjectSolution\\T3ProjectApplication\\T3ProjectApplication.csproj": {
+    "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 17\\Assignment\\T3ProjectSolution\\T3ProjectApplication\\T3ProjectApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Project\\repos\\T3ProjectSolution\\T3ProjectApplication\\T3ProjectApplication.csproj",
+        "projectUniqueName": "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 17\\Assignment\\T3ProjectSolution\\T3ProjectApplication\\T3ProjectApplication.csproj",
         "projectName": "T3ProjectApplication",
-        "projectPath": "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Project\\repos\\T3ProjectSolution\\T3ProjectApplication\\T3ProjectApplication.csproj",
+        "projectPath": "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 17\\Assignment\\T3ProjectSolution\\T3ProjectApplication\\T3ProjectApplication.csproj",
         "packagesPath": "C:\\Users\\Abdul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Project\\repos\\T3ProjectSolution\\T3ProjectApplication\\obj\\",
+        "outputPath": "C:\\Users\\Abdul\\Documents\\Dotnet_17Jan2022\\Day 17\\Assignment\\T3ProjectSolution\\T3ProjectApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
