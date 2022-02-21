@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3f6a5bd9-6957-4a79-9d24-90426c34fa60": {
+      "ProjectGuid": "3f6a5bd9-6957-4a79-9d24-90426c34fa60",
+      "DisplayName": "GatewayAPI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

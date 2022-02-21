@@ -1,0 +1,25 @@
+Topics:
+Authentication
+MicroService - Architecture
+
+Authentication -> Upon Project Creation
+Identity -> Scaffold
+
+Architecture/Structure
+Front End(MVC) -> Gateway API -> API -> Database
+
+DTO - Data Transfer Object
+
+Package
+-SQL Server
+-Newtonsoft.Json
+
+HMACSHA512 = SHA-512 -> Passowrd hashing -> Byte
+
+JWT - JSON Web Token -> Token Based Authentication
+
+Package - JWBearer
+appjson -> TokenKey: ""
+
+Project
+Gateway -> Service -> MVC
